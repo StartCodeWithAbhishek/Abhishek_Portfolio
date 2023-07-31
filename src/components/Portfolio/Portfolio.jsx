@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Sidebar from "../../img/booking.png";
+import Ecommerce from "../../img/reuseU.png";
+import HOC from "../../img/translate.png";
+import MusicApp from "../../img/dance.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -18,22 +18,25 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-        spaceBetween={30}
+        spaceBetween={20}
         slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a href="https://github.com/StartCodeWithAbhishek/BookMyRoom">
+          <img src={Sidebar} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <a href="https://abhidanceacademyrewa.onrender.com/">
+          <img src={MusicApp} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href="https://github.com/StartCodeWithAbhishek/TextUtils">
+          <img src={HOC} alt="" /></a>
         </SwiperSlide>
       </Swiper>
     </div>
