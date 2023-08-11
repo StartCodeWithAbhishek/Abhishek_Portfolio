@@ -43,9 +43,8 @@
     border-radius: 20px;
 }
 .testimonial>img{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 100%;
+   width: 95%;
+   height: 95%;
 }
 .testimonial>span{
     color: var(--gray);

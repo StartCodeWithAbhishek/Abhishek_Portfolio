@@ -5,40 +5,46 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import certificate1 from "../../img/certificate1.jpg";
+import certificate2 from "../../img/certificate2.jpg";
+import certificate3 from "../../img/certificate3.jpg";
+import certificate4 from "../../img/certificate4.jpg";
+import certificate5 from "../../img/certificate5.jpg";
 
 const Testimonial = () => {
-  const clients = [
+  const certifatates = [
     {
-      img: profilePic1,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      img: certificate1,
+      certificateName:
+        "JAVA FOUNDATION FROM ORACLE ACADEMY",
     },
     {
-      img: profilePic2,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      img: certificate2,
+      certificateName:
+        "PROGRAMMING ESSENTIALA IN C from CISCO NETWORKING ACADEMY",
     },
     {
-      img: profilePic3,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      img: certificate3,
+      certificateName:
+        "NSE-3 NETWORK SECURITY ASSOCIATE from FORTINET",
     },
     {
-      img: profilePic4,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      img: certificate4,
+      certificateName:
+        "CLOUD FOUNDATION from AWS ACADEMY",
+    },
+    {
+      img: certificate5,
+      certificateName:
+        "MACHINE LEARNING from AWS ACADEMY",
     },
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>projects  descreptions </span>
-        <span>Exceptional Work </span>
+        <span>certification i have done while learning technologies</span>
+        <span><br/>Exceptional Work </span>
         <span>from me...</span>
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
@@ -50,12 +56,12 @@ const Testimonial = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {clients.map((client, index) => {
+        {certifatates.map((certifatates, index) => {
           return (
             <SwiperSlide key={index}>
               <div className="testimonial">
-                <img src={client.img} alt="" />
-                <span>{client.review}</span>
+                <img src={certifatates.img} alt="" />
+                <span>{certifatates.certificateName}</span>
               </div>
             </SwiperSlide>
           );
@@ -66,3 +72,4 @@ const Testimonial = () => {
 };
 
 export default Testimonial;
+
