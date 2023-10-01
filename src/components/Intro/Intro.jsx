@@ -44,6 +44,7 @@ const Intro = () => {
           <a href="https://www.linkedin.com/in/abhishek-vishwakarmaa">  <img src={LinkedIn} alt="" /></a>
           <a href="https://instagram.com/abhishek144e">  <img src={Instagram} alt="" /></a>
         </div>
+        <img src={boys} className="sPhoto" alt="" />
       </div>
       {/* right image side */}
       <div className="i-right">

@@ -42,6 +42,7 @@
   display: flex;
   gap: 0rem;
 }
+
 .i-icons > * {
   transform: scale(0.5);
 }
@@ -53,6 +54,15 @@
   flex: 1;
   position: relative;
 }
+.sPhoto{
+  display: block;
+  position: absolute;
+  top: 650px;
+  left:350px;
+  width: 100px;
+  
+  }
+
 .i-right > * {
   position: absolute;
   z-index: 1;
