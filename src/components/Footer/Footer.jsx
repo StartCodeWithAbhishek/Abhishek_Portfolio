@@ -6,11 +6,16 @@ import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 
 const Footer = () => {
+
+
+  const handleButtonClick = () => {
+    window.location.href = 'mailto:abhivishw2002@gmail.com';
+  };
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>abhivishw2002@gmail.com</span>
+      <a href="mailto:abhivishw2002@gmail.com">Open Email</a>
         <div className="f-icons">
           <Insta color="white" size={"3rem"} />
           <Facebook color="white" size={"3rem"} />

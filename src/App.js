@@ -11,9 +11,7 @@ import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 
-document.addEventListener("contextmenu", function (e) {
-  e.preventDefault();
-});
+
 
 
 function App() {

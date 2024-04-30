@@ -3,7 +3,7 @@ import "./Services.css";
 import Card from "../Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import leatcode from "../../img/leatcode1.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
@@ -32,7 +32,7 @@ const Services = () => {
           passionate about creating user-friendly websites
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download-CV</button>
+          <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -40,7 +40,7 @@ const Services = () => {
       <div className="cards">
         {/* first card */}
         <motion.div
-          initial={{ left: "25rem" }}
+          initial={{ left: "20rem" }}
           whileInView={{ left: "14rem" }}
           transition={transition}
         >
@@ -52,7 +52,7 @@ const Services = () => {
         </motion.div>
         {/* second card */}
         <motion.div
-          initial={{ left: "-11rem", top: "12rem" }}
+          initial={{ left: "-10rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
           transition={transition}
         >
@@ -64,12 +64,12 @@ const Services = () => {
         </motion.div>
         {/* 3rd */}
         <motion.div
-          initial={{ top: "19rem", left: "25rem" }}
+          initial={{ top: "19rem", left: "20rem" }}
           whileInView={{ left: "12rem" }}
           transition={transition}
         >
           <Card
-            emoji={Humble}
+            emoji={leatcode}
             heading={"problem solving"}
             detail={
               "java programming"
