@@ -6,8 +6,8 @@ import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import certificate1 from "../../img/certificate1.jpg";
-import certificate2 from "../../img/certificate2.jpg";
-import certificate3 from "../../img/certificate3.jpg";
+import certificate2 from "../../img/certificate2.png";
+import certificate3 from "../../img/certificate3.png";
 import certificate4 from "../../img/certificate4.jpg";
 import certificate5 from "../../img/certificate5.jpg";
 
