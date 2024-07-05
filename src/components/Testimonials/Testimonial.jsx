@@ -16,17 +16,17 @@ const Testimonial = () => {
     {
       img: certificate1,
       certificateName:
-        "JAVA FOUNDATION FROM ORACLE ACADEMY",
+        "JAVA FOUNDATION: ORACLE ACADEMY",
     },
     {
       img: certificate2,
       certificateName:
-        "PROGRAMMING ESSENTIALA IN C from CISCO NETWORKING ACADEMY",
+        "BESIC REACTJS : HACKERRANK",
     },
     {
       img: certificate3,
       certificateName:
-        "NSE-3 NETWORK SECURITY ASSOCIATE from FORTINET",
+        "BESIC JAVASCRIPT : HACKERRANK",
     },
     {
       img: certificate4,
