@@ -61,7 +61,22 @@
   left:350px;
   width: 100px;
   }
+.profile-img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 90%,
+    transparent 100%
+  );
+
+  mask-image: linear-gradient(
+    to bottom,
+    black 90%,
+    transparent 100%
+  );
+}
 .i-right > * {
   position: absolute;
   z-index: 1;

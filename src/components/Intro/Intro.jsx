@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boys from "../../img/abhishek1.png";
+import imageAbhishek from "../../img/abhishek1.svg";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -44,13 +44,13 @@ const Intro = () => {
           <a href="https://www.linkedin.com/in/abhishek-vishwakarmaa">  <img src={LinkedIn} alt="" /></a>
           <a href="https://instagram.com/abhishek144e">  <img src={Instagram} alt="" /></a>
         </div>
-        {/* <img src={boys} className="sPhoto" alt="" /> */}
+        {/* <img src={imageAbhishekoys} className="sPhoto" alt="" /> */}
       </div>
       {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boys} className="myPhoto" alt="" />
+        <img src={imageAbhishek} className="myPhoto profile-img" alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}

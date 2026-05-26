@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
 import javascript from "../../img/javascript.png";
-import express from "../../img/express.png";
+import gitlab from "../../img/gitlab.png";
 import react from "../../img/react.png";
-import mongodb from "../../img/mongodb.png";
-import java from "../../img/java.png";
+import SQL from "../../img/SQL.png";
+import springBoot from "../../img/springBoot.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -25,14 +25,13 @@ const Works = () => {
           </span>
           <span> technology</span>
           <spane>
-          I am a skilled MERN stack developer with expertise in building scalable web applications
+          Backend Developer with 1 year of experience in building scalable banking applications
             <br />
-            With a solid understanding of MongoDB, Express.js, React, and Node.js
-            text
+            using Java, Spring Boot, REST APIs, Microservices, and MySQL
             <br />
-            I am passionate about creating user-friendly websites
+            Skilled in backend development, API optimization, production issue resolution, and Agile-based software delivery
             <br />
-            As a MERN stack developer with a strong foundation in Java, 
+             Also as a MERN stack developer with a strong foundation in Java, 
             <br/>
             I am well-equipped to contribute to innovative and dynamic projects
           </spane>
@@ -59,16 +58,16 @@ const Works = () => {
             <img src={javascript} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={express} alt="" />
+            <img src={gitlab} alt="" />
           </div>
           <div className="w-secCircle">
             <img src={react} alt="" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={mongodb} alt="" />
+            <img src={SQL} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={java} alt="" />
+            <img src={springBoot} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}

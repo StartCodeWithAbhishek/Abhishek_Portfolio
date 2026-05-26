@@ -1,12 +1,13 @@
 import React, { useContext } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
+import springBoot from "../../img/springBoot.png";
 import Glasses from "../../img/glasses.png";
 import leatcode from "../../img/leatcode1.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
+import react from "../../img/react.png";
 
 const Services = () => {
   // context
@@ -27,9 +28,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-        I am a skilled MERN stack developer with expertise in building scalable web applications
+          Delivering robust full-stack and backend solutions 
           <br />
-          passionate about creating user-friendly websites
+          tailored for modern business applications.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -45,9 +46,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
+            emoji={springBoot}
             heading={"backend devloper"}
-            detail={"Nodejs, Express,mongodb,mySQL"}
+            detail={"SpringBoot, JPA, SQL"}
           />
         </motion.div>
         {/* second card */}
@@ -57,9 +58,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
+            emoji={react}
             heading={"Frontend Developer"}
-            detail={"Html, Css, JavaScript, React"}
+            detail={"React, Javascript"}
           />
         </motion.div>
         {/* 3rd */}
